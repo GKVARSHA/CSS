@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)file:///C:/Users/gkyok/AppData/Local/Microsoft/Windows/INetCache/IE/ZP0C41TL/Task-8%5B1%5D.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .shape {
+            width: 150px;
+            height: 100px;
+            border: 2px solid rgb(39, 219, 11);
+        }
+
+        .sharp-ends {
+            border-radius: 0;
+        }
+
+        .semi-curve-ends {
+            border-radius: 10px / 10px;
+        }
+
+        .completely-curved {
+            border-radius: 50px / 90px;
+        }
+
+        .oval {
+            border-radius: 50% / 50%;
+        }
+
+        .curved-and-pointed {
+            border-radius: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shape semi-curve-ends"></div>
+        <div class="shape semi-curve-ends"></div>
+        <div class="shape completely-curved"></div>
+        <div class="shape semi-curve-ends"></div>
+        <div class="shape sharp-ends"></div>
+        <div class="shape completely-curved"></div>
+        <div class="shape oval"></div>
+        <div class="shape semi-curve-ends"></div>
+        <div class="shape curved-and-pointed"></div>
+    </div>
+
+
+</body></html>
